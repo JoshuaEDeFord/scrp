@@ -1,0 +1,23 @@
+{
+  "name": "scrp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "npx tsc && grunt screeps"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/screeps": "^3.3.8",
+    "grunt-screeps": "^1.5.0"
+  },
+  "devDependencies": {
+    "grunt": "^1.6.1",
+    "grunt-contrib-clean": "^2.0.1",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-jshint": "^3.2.0",
+    "typescript": "^5.4.2"
+  }
+}

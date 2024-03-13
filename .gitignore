@@ -1,0 +1,6 @@
+/.screeps.json
+/dist/
+/.idea/
+/node_modules/
+/srcBackup/
+/scrp.iml
